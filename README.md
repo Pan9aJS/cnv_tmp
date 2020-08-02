@@ -30,12 +30,12 @@ degree.getAll(); // {F: 105.8, C: 41, K: 314.15}
 
 ***Установка на Windows***
 ```cmd
-$ npm install convert_temp
+$ npm install cnv_tmp
  ```
 
 ***Использование после установки***
 ```javascript
-let Degree = require('convert_temp'); 
+let Degree = require('cnv_tmp'); 
 
 let degree = new Degree('C', 41);
 
