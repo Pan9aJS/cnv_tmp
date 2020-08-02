@@ -1,0 +1,24 @@
+{
+  "name": "cnv_tmp",
+  "version": "1.0.0",
+  "description": "convert temperature",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pan9aJS/convert_temp.git"
+  },
+  "keywords": [
+    "temp",
+    "temperature",
+    "convert"
+  ],
+  "author": "Pan9aJS",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Pan9aJS/convert_temp/issues"
+  },
+  "homepage": "https://github.com/Pan9aJS/convert_temp#readme"
+}
