@@ -1,24 +1,52 @@
 {
-  "name": "cnv_tmp",
-  "version": "1.0.0",
-  "description": "convert temperature",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Pan9aJS/convert_temp.git"
-  },
-  "keywords": [
-    "temp",
-    "temperature",
-    "convert"
-  ],
-  "author": "Pan9aJS",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Pan9aJS/convert_temp/issues"
-  },
-  "homepage": "https://github.com/Pan9aJS/convert_temp#readme"
+    "_from": "cnv_tmp",
+    "_id": "cnv_tmp@1.0.0",
+    "_inBundle": false,
+    "_integrity": "sha512-FhjQz4ZbtHGQhN8kYkKBFufNrtSBvQMjMX2n2ox8RODvus5r/JP7qfQGlH5iDYDKRzn+mvy+ot5cS8GhpvNFfQ==",
+    "_location": "/cnv_tmp",
+    "_phantomChildren": {},
+    "_requested": {
+        "type": "tag",
+        "registry": true,
+        "raw": "cnv_tmp",
+        "name": "cnv_tmp",
+        "escapedName": "cnv_tmp",
+        "rawSpec": "",
+        "saveSpec": null,
+        "fetchSpec": "latest"
+    },
+    "_requiredBy": [
+        "#USER",
+        "/"
+    ],
+    "_resolved": "https://registry.npmjs.org/cnv_tmp/-/cnv_tmp-1.0.0.tgz",
+    "_shasum": "cf2a732d2028cb72d140704dd325b2855f6fb41e",
+    "_spec": "cnv_tmp",
+    "_where": "D:\\programming\\npm",
+    "author": {
+        "name": "Pan9aJS"
+    },
+    "bugs": {
+        "url": "https://github.com/Pan9aJS/convert_temp/issues"
+    },
+    "bundleDependencies": false,
+    "deprecated": false,
+    "description": "convert temperature",
+    "homepage": "https://github.com/Pan9aJS/convert_temp#readme",
+    "keywords": [
+        "temp",
+        "temperature",
+        "convert"
+    ],
+    "license": "ISC",
+    "main": "index.js",
+    "name": "cnv_tmp",
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Pan9aJS/convert_temp.git"
+    },
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "version": "2.0.1"
 }

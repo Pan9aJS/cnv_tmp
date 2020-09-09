@@ -1,46 +1,37 @@
-# **Имя модуля:** *cnv_tmp*
-
-
-**Параметры**:
-1.  Единицы измерения. 
-    - F - *Fahrenheit*, 
-    - C - *Celsius*, 
-    - K  - *Kelvins*.
-    
-2. Количество градусов. 
-    - Тип: *number*
-
-**Методы**: 
-1. Fahrenheit - Возвращает значение в Фаренгейтах.
-1.    Celsius - Возвращает значение в Цельсиях.
-1.  Kelvins - Возвращает значение в Кельвинах.
-
-
-***Пример использования***
-
-```javascript
-let degree = new Degree('C', 41);
-
-degree.Fahrenheit(); // 105.8
-degree.Celsius(); // 41
-degree.Kelvins(); // 314.15
-degree.getAll(); // {F: 105.8, C: 41, K: 314.15}
-```
+# **Имя модуля:** *cnv_temp*
 
 
 ***Установка на Windows***
 ```cmd
-$ npm install cnv_tmp
+$ npm install cnv_temp
  ```
 
-***Использование после установки***
+
+
+***Использование***
 ```javascript
-let Degree = require('cnv_tmp'); 
+let { TemperatureUnit } = require('cnv_tmp');
 
-let degree = new Degree('C', 41);
+let degree = new TemperatureUnit(name, degree);
+/*  name:  K - Kelvins, F - Fahrenheit, C - Celsius   */ 
+/*  degree: [number] */ 
 
-degree.Fahrenheit(); // 105.8
-degree.Celsius(); // 41
-degree.Kelvins(); // 314.15
-degree.getAll(); // {F: 105.8, C: 41, K: 314.15}
+// Методы: 
+//  toFahrenheit - Возвращает значение в Фаренгейтах.
+//  toCelsius - Возвращает значение в Цельсиях.
+//  toKelvins - Возвращает значение в Кельвинах.
+
 ```
+  
+
+***Пример:***
+
+```javascript
+let { TemperatureUnit } = require('cnv_tmp');
+
+let degree = new TemperatureUnit('F', 15);
+degree.toCelsius(); // -9.444444444444445
+degree.toKelvins(); //  263.7055555555555
+degree.toFahrenheit(); // 15
+```
+
